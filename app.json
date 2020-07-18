@@ -11,7 +11,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/brand_logo_trans.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,6 +23,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "description": "Indici Mobile Application First Overview.\nFeatures\n1. View your Appointments\n2. Book Appointments\n3. View Medications\n4. View Diagnosis\n5. View Results and Reports\n6. View Resources\n7. View your Timeline\n8. View your Accounts and Balance"
   }
 }
